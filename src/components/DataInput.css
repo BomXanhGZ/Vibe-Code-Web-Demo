@@ -1,0 +1,72 @@
+.data-input-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-top: 20px;
+  font-family: system-ui, sans-serif;
+}
+
+.data-input-title {
+  margin-top: 0;
+}
+
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+.data-input-field {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-save,
+.btn-clear {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.btn-save {
+  background-color: #4CAF50;
+}
+
+.btn-save:hover {
+  background-color: #45a049;
+}
+
+.btn-clear {
+  background-color: #f44336;
+}
+
+.btn-clear:hover {
+  background-color: #da190b;
+}
+
+.result-box {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.text-data {
+  color: #333;
+}
+
+.text-empty {
+  color: #888;
+  font-style: italic;
+}
